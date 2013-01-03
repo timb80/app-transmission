@@ -50,7 +50,7 @@ echo "</div>";
 // Service running
 ///////////////////////////////////////////////////////////////////////////////
 
-$serveraddr = getenv("SERVER_ADDR");
+$serveraddr = getenv("SERVER_NAME");
 
 echo "<div id='transmission_running' style='display:none;'>";
 
