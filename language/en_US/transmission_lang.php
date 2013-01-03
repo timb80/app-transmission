@@ -2,7 +2,7 @@
 //minimum
 $lang['transmission_app_name'] = 'Transmission';
 $lang['transmission_app_description'] = 'Transmission is a free, lightweight BitTorrent client. It features a simple, intuitive interface on top on an efficient, cross-platform back-end. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.';
-$lang['transmission_app_tooltip'] = 'Default store location is /var/lib/transmission';
+$lang['transmission_app_tooltip'] = 'Default store location is /var/lib/transmission. Default listening port is 51413, please open this on the incoming firewall';
 $lang['transmission_access_denied'] = 'Access is denied.';
 $lang['transmission_password_updated'] = 'Password updated succesfully.';
 $lang['transmission_password_invalid'] = 'Password is invalid.';
