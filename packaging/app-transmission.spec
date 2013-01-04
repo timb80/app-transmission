@@ -3,7 +3,7 @@ Name: app-transmission
 Epoch: 1
 Version: 1.0.0
 Release: 1%{dist}
-Summary: **transmission_app_name**
+Summary: Transmission
 License: GPLv3
 Group: ClearOS/Apps
 Packager: Tim Burgess
@@ -14,10 +14,10 @@ Requires: %{name}-core = 1:%{version}-%{release}
 Requires: app-base
 
 %description
-**transmission_app_description**
+Transmission is a free, lightweight BitTorrent client. It features a simple, intuitive interface on top on an efficient, cross-platform back-end. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, uTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.
 
 %package core
-Summary: **transmission_app_name** - Core
+Summary: Transmission - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Requires: app-base-core
@@ -25,7 +25,7 @@ Requires: transmission >= 2.5
 Requires: app-base-core >= 1:1.2.6
 
 %description core
-**transmission_app_description**
+Transmission is a free, lightweight BitTorrent client. It features a simple, intuitive interface on top on an efficient, cross-platform back-end. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, uTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.
 
 This package provides the core API and libraries.
 

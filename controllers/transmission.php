@@ -48,10 +48,11 @@
 
 use \Exception as Exception; 
 
-class Transmission extends ClearOS_Controller {
+class Transmission extends ClearOS_Controller
+{
 
-	function index() 
-	{
+    function index() 
+    {
 
         // Load libraries (we have none but they might look like)
         //---------------
@@ -68,7 +69,7 @@ class Transmission extends ClearOS_Controller {
 
         $this->page->view_forms($views, lang('transmission_app_name'));
 
-	}
+    }
 
 }
 

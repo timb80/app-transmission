@@ -112,7 +112,7 @@ class Setting extends ClearOS_Controller
         //---------------
 
         try {
-    	    $is_running = $this->transmission->get_running_state();
+            $is_running = $this->transmission->get_running_state();
             //$data['is_password_set'] = $this->backuppc->is_root_password_set();
         } catch (Exception $e) {
             $this->page->view_exception($e);
