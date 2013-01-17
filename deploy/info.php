@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'transmission';
-$app['version'] = '1.0.0';
+$app['version'] = '1.1.0';
 $app['release'] = '1';
 $app['vendor'] = 'Tim Burgess';
 $app['packager'] = 'Tim Burgess';
@@ -34,7 +34,7 @@ $app['controllers']['transmission']['title'] = lang('transmission_app_name');
 
 
 $app['core_requires'] = array(
-    'transmission >= 2.5',
+    'transmission >= 2.75',
     'app-base-core >= 1:1.2.6'
 );
 
@@ -44,5 +44,6 @@ $app['core_file_manifest'] = array(
 
 $app['delete_dependency'] = array(
     'app-transmission-core',
-    'transmission'
+    'transmission',
+    'transmission-common'
 );

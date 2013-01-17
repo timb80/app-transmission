@@ -3,4 +3,3 @@
 # Add to sudoers entry for transmission password
 #-------------------------------
 /usr/sbin/addsudo /usr/bin/transmission-password "Transmission"
-

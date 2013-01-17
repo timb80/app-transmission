@@ -1,7 +1,7 @@
 
 Name: app-transmission
 Epoch: 1
-Version: 1.0.0
+Version: 1.1.0
 Release: 1%{dist}
 Summary: Transmission
 License: GPLv3
@@ -21,7 +21,7 @@ Summary: Transmission - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Requires: app-base-core
-Requires: transmission >= 2.5
+Requires: transmission >= 2.75
 Requires: app-base-core >= 1:1.2.6
 
 %description core

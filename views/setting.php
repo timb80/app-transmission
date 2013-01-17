@@ -62,7 +62,8 @@ echo infobox_highlight(
     "</p>"
 );
 
-echo form_open('transmission');
+$attributes = array('autocomplete' => 'off');
+echo form_open('transmission', $attributes);
 echo form_header(lang('base_password'));
 
 echo field_password('password', '', lang('base_password'));
