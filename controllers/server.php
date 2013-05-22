@@ -3,9 +3,9 @@
 /**
  * Transmission daemon controller.
  *
- * @category   Apps
- * @package    Transmission
- * @subpackage Controllers
+ * @category   apps
+ * @package    transmission
+ * @subpackage controllers
  * @author     ClearFoundation <developer@clearfoundation.com>
  * @copyright  2012 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later
@@ -49,9 +49,9 @@ require clearos_app_base('base') . '/controllers/daemon.php';
 /**
  * Transmission daemon controller.
  *
- * @category   Apps
- * @package    Transmission
- * @subpackage Controllers
+ * @category   apps
+ * @package    transmission
+ * @subpackage controllers
  * @author     ClearFoundation <developer@clearfoundation.com>
  * @copyright  2012 ClearFoundation
  * @license    http://www.gnu.org/copyleft/gpl.html GNU General Public License version 3 or later
